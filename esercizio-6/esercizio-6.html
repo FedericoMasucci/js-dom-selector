@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio 6: Svuota carrello</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+
+        .exercise-container {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-left: 5px solid #3498db;
+        }
+
+        .exercise-container h2 {
+            margin-top: 0;
+            color: #2980b9;
+            font-size: 1.2rem;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background: #ecf0f1;
+            margin: 5px 0;
+            padding: 8px;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .rimuovi {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 4px 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        .rimuovi:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <div class="exercise-container">
+        <h2>6. Svuota carrello</h2>
+        <p>Cancella l'articolo corrispondente quando si clicca su "Rimuovi".</p>
+        <ul id="carrello">
+            <li>Prodotto A <button class="rimuovi">Rimuovi</button></li>
+            <li>Prodotto B <button class="rimuovi">Rimuovi</button></li>
+            <li>Prodotto C <button class="rimuovi">Rimuovi</button></li>
+        </ul>
+    </div>
+</body>
+</html>

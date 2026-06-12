@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio 10: Contatore caratteri commento</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+
+        .exercise-container {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-left: 5px solid #3498db;
+        }
+
+        .exercise-container h2 {
+            margin-top: 0;
+            color: #2980b9;
+            font-size: 1.2rem;
+        }
+
+        textarea {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 100%;
+            max-width: 300px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="exercise-container">
+        <h2>10. Contatore caratteri commento</h2>
+        <p>Conta i caratteri rimanenti in tempo reale mentre scrivi.</p>
+        <textarea id="commento" maxlength="100" rows="4" placeholder="Scrivi il tuo commento..."></textarea>
+        <p>Caratteri rimanenti: <span id="count" style="font-weight: bold;">100</span></p>
+    </div>
+</body>
+</html>

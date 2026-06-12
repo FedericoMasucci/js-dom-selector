@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio 9: Evidenzia riga tabella</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+
+        .exercise-container {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-left: 5px solid #3498db;
+        }
+
+        .exercise-container h2 {
+            margin-top: 0;
+            color: #2980b9;
+            font-size: 1.2rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        td, th {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="exercise-container">
+        <h2>9. Evidenzia riga tabella</h2>
+        <p>Evidenzia la riga al passaggio del mouse (mouseover).</p>
+        <table>
+            <tr><td>Dato 1</td><td>Valore A</td></tr>
+            <tr><td>Dato 2</td><td>Valore B</td></tr>
+            <tr><td>Dato 3</td><td>Valore C</td></tr>
+        </table>
+    </div>
+</body>
+</html>

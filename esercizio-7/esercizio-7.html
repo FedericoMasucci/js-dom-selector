@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio 7: Validazione password al blur</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+
+        .exercise-container {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-left: 5px solid #3498db;
+        }
+
+        .exercise-container h2 {
+            margin-top: 0;
+            color: #2980b9;
+            font-size: 1.2rem;
+        }
+
+        input[type="password"] {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 100%;
+            max-width: 300px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        #errore {
+            color: #e74c3c;
+            font-size: 0.9em;
+            margin-top: -5px;
+            margin-bottom: 10px;
+            min-height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="exercise-container">
+        <h2>7. Validazione password al blur</h2>
+        <p>Mostra un messaggio di errore se l'utente lascia il campo vuoto.</p>
+        <input type="password" id="pwd" placeholder="Inserisci Password">
+        <p id="errore"></p>
+    </div>
+</body>
+</html>
